@@ -1,0 +1,202 @@
+[
+  {
+    "transaction_id": "TXN00001",
+    "trade_date": "2025-04-29",
+    "settlement_date": "2025-05-03",
+    "status": "failed",
+    "isin_code": "USQSRLMYZQO1",
+    "counterparty_1": "Broker X",
+    "asset_type": "ETF",
+    "settlement_venue": "DTCC"
+  },
+  {
+    "transaction_id": "TXN00002",
+    "trade_date": "2024-09-19",
+    "settlement_date": "2024-09-21",
+    "status": "failed",
+    "isin_code": "USKAYOM1C4CM",
+    "counterparty_1": "Bank A",
+    "asset_type": "Derivative",
+    "settlement_venue": "Monte Titoli"
+  },
+  {
+    "transaction_id": "TXN00003",
+    "trade_date": "2025-01-31",
+    "settlement_date": "2025-02-04",
+    "status": "settled",
+    "isin_code": "USQQZF6WPEMH",
+    "counterparty_1": "Bank A",
+    "asset_type": "ETF",
+    "settlement_venue": "Euroclear"
+  },
+  {
+    "transaction_id": "TXN00004",
+    "trade_date": "2025-01-02",
+    "settlement_date": "2025-01-04",
+    "status": "failed",
+    "isin_code": "USM49JBFJ3Q1",
+    "counterparty_1": "Broker X",
+    "asset_type": "ETF",
+    "settlement_venue": "DTCC"
+  },
+  {
+    "transaction_id": "TXN00005",
+    "trade_date": "2024-10-16",
+    "settlement_date": "2024-10-17",
+    "status": "settled",
+    "isin_code": "USNKMZD8DWO4",
+    "counterparty_1": "Bank B",
+    "asset_type": "Derivative",
+    "settlement_venue": "Euroclear"
+  },
+  {
+    "transaction_id": "TXN00006",
+    "trade_date": "2025-06-09",
+    "settlement_date": "2025-06-14",
+    "status": "failed",
+    "isin_code": "USJERPPBY0FE",
+    "counterparty_1": "Broker X",
+    "asset_type": "Mutual Fund",
+    "settlement_venue": "DTCC"
+  },
+  {
+    "transaction_id": "TXN00007",
+    "trade_date": "2025-02-01",
+    "settlement_date": "2025-02-06",
+    "status": "failed",
+    "isin_code": "USJ6LDODZW9O",
+    "counterparty_1": "Broker X",
+    "asset_type": "Bond",
+    "settlement_venue": "Monte Titoli"
+  },
+  {
+    "transaction_id": "TXN00008",
+    "trade_date": "2024-07-31",
+    "settlement_date": "2024-08-05",
+    "status": "settled",
+    "isin_code": "US59QFMUO9GG",
+    "counterparty_1": "Bank B",
+    "asset_type": "Bond",
+    "settlement_venue": "SIX SIS"
+  },
+  {
+    "transaction_id": "TXN00009",
+    "trade_date": "2025-06-18",
+    "settlement_date": "2025-06-23",
+    "status": "failed",
+    "isin_code": "US4WAZF3N93I",
+    "counterparty_1": "Fund Z",
+    "asset_type": "Mutual Fund",
+    "settlement_venue": "DTCC"
+  },
+  {
+    "transaction_id": "TXN00010",
+    "trade_date": "2024-09-18",
+    "settlement_date": "2024-09-22",
+    "status": "failed",
+    "isin_code": "USHTIMAW9NC5",
+    "counterparty_1": "Fund Z",
+    "asset_type": "Equity",
+    "settlement_venue": "DTCC"
+  },
+  {
+    "transaction_id": "TXN00011",
+    "trade_date": "2024-10-25",
+    "settlement_date": "2024-10-27",
+    "status": "settled",
+    "isin_code": "USJUXHJ3S9YJ",
+    "counterparty_1": "Fund Z",
+    "asset_type": "Equity",
+    "settlement_venue": "DTCC"
+  },
+  {
+    "transaction_id": "TXN00012",
+    "trade_date": "2024-09-24",
+    "settlement_date": "2024-09-29",
+    "status": "failed",
+    "isin_code": "USDCYHQ9F7O7",
+    "counterparty_1": "Bank B",
+    "asset_type": "Mutual Fund",
+    "settlement_venue": "Clearstream"
+  },
+  {
+    "transaction_id": "TXN00013",
+    "trade_date": "2025-02-16",
+    "settlement_date": "2025-02-18",
+    "status": "failed",
+    "isin_code": "USD24VL5BY9K",
+    "counterparty_1": "Bank A",
+    "asset_type": "Derivative",
+    "settlement_venue": "Euroclear"
+  },
+  {
+    "transaction_id": "TXN00014",
+    "trade_date": "2024-08-09",
+    "settlement_date": "2024-08-14",
+    "status": "settled",
+    "isin_code": "USOSRK9VH878",
+    "counterparty_1": "Broker X",
+    "asset_type": "ETF",
+    "settlement_venue": "Euroclear"
+  },
+  {
+    "transaction_id": "TXN00015",
+    "trade_date": "2025-01-11",
+    "settlement_date": "2025-01-13",
+    "status": "settled",
+    "isin_code": "USY22I4U4FHL",
+    "counterparty_1": "Bank B",
+    "asset_type": "ETF",
+    "settlement_venue": "Euroclear"
+  },
+  {
+    "transaction_id": "TXN00016",
+    "trade_date": "2024-10-01",
+    "settlement_date": "2024-10-03",
+    "status": "settled",
+    "isin_code": "USB0C5U8TDNI",
+    "counterparty_1": "Fund Z",
+    "asset_type": "ETF",
+    "settlement_venue": "DTCC"
+  },
+  {
+    "transaction_id": "TXN00017",
+    "trade_date": "2025-02-13",
+    "settlement_date": "2025-02-16",
+    "status": "failed",
+    "isin_code": "US3T73GURRGB",
+    "counterparty_1": "Fund Z",
+    "asset_type": "ETF",
+    "settlement_venue": "SIX SIS"
+  },
+  {
+    "transaction_id": "TXN00018",
+    "trade_date": "2024-12-15",
+    "settlement_date": "2024-12-19",
+    "status": "pending",
+    "isin_code": "USCV506G6FS1",
+    "counterparty_1": "Fund Z",
+    "asset_type": "Equity",
+    "settlement_venue": "Monte Titoli"
+  },
+  {
+    "transaction_id": "TXN00019",
+    "trade_date": "2024-07-01",
+    "settlement_date": "2024-07-02",
+    "status": "settled",
+    "isin_code": "US8Z4G4Q1FP1",
+    "counterparty_1": "Fund Z",
+    "asset_type": "Mutual Fund",
+    "settlement_venue": "SIX SIS"
+  },
+  {
+    "transaction_id": "TXN00020",
+    "trade_date": "2024-12-15",
+    "settlement_date": "2024-12-16",
+    "status": "pending",
+    "isin_code": "USL6DW49F218",
+    "counterparty_1": "Fund Z",
+    "asset_type": "Bond",
+    "settlement_venue": "SIX SIS"
+  }
+]
