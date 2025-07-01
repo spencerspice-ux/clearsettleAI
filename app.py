@@ -7,7 +7,7 @@ firebase_credentials = st.secrets["firebase_credentials"]
 
 # Initialize Firebase Admin SDK
 if not firebase_admin._apps:  # Prevent reinitialization in Streamlit's reruns
-    cred = credentials.Certificate(firebase_credentials)
+    cred = credentials.Certificate(firebase_credentials)  # Use secrets directly
     firebase_admin.initialize_app(cred)
 
 # Example: Access Firestore
