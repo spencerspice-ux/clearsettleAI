@@ -10,6 +10,7 @@ services:
     volumes:
       - .:/app  # Mount the current directory
       - ./settlement_transactions.json:/app/settlement_transactions.json  # Mount the JSON file
+      - ./.streamlit/secrets.toml:/app/.streamlit/secrets.toml  # Mount the Streamlit secrets file
     environment:
       - GOOGLE_APPLICATION_CREDENTIALS=/app/clearsettle-ai-firebase-adminsdk-fbsvc-844f7a5e30.json
     depends_on:

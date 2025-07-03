@@ -1,6 +1,6 @@
 # Ignore Streamlit secrets file
-secrets.toml
 .streamlit/secrets.toml
+secrets.toml
 
 # Ignore Firebase Admin SDK credentials
 clearsettle-ai-firebase-adminsdk-fbsvc-844f7a5e30.json

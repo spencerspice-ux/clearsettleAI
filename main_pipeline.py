@@ -12,23 +12,39 @@ def run_pipeline(data_file="/app/settlement_transactions.json"):
 
     # Step 1: Upload Settlements
     logging.info("📤 Step 1: Uploading settlements...")
-    upload_settlements(data_file)
-    logging.info("✅ Settlements uploaded successfully.")
+    try:
+        upload_settlements(data_file)
+        logging.info("✅ Settlements uploaded successfully.")
+    except Exception as e:
+        logging.error(f"❌ Error uploading settlements: {e}")
+        return
 
     # Step 2: Anomaly Detection
     logging.info("⚠️ Step 2: Running anomaly detection...")
-    detect_anomalies()
-    logging.info("✅ Anomaly detection completed.")
+    try:
+        detect_anomalies()
+        logging.info("✅ Anomaly detection completed.")
+    except Exception as e:
+        logging.error(f"❌ Error during anomaly detection: {e}")
+        return
 
     # Step 3: Generate Recommendations
     logging.info("🎯 Step 3: Generating recommendations...")
-    generate_recommendations()
-    logging.info("✅ Recommendations generated successfully.")
+    try:
+        generate_recommendations()
+        logging.info("✅ Recommendations generated successfully.")
+    except Exception as e:
+        logging.error(f"❌ Error generating recommendations: {e}")
+        return
 
     # Step 4: Blockchain-style Logging
     logging.info("🔐 Step 4: Simulating blockchain logs...")
-    log_blockchain_activity()
-    logging.info("✅ Blockchain logs updated successfully.")
+    try:
+        log_blockchain_activity()
+        logging.info("✅ Blockchain logs updated successfully.")
+    except Exception as e:
+        logging.error(f"❌ Error during blockchain logging: {e}")
+        return
 
     logging.info("🏁 Pipeline completed successfully.\n")
 
