@@ -5,6 +5,7 @@ import firebase_admin
 from firebase_admin import credentials, firestore
 import json
 import logging
+from utils import validate_transaction, normalize_transaction
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s')
@@ -22,6 +23,25 @@ except Exception as e:
     logging.error(f"Failed to initialize Firebase: {e}")
     exit()
 
+def upload_to_database(transaction):
+    try:
+        collection_ref = db.collection('settlements')
+        doc_ref = collection_ref.document(transaction['transaction_id'])
+        doc_ref.set(transaction)
+        logging.info(f"Transaction {transaction['transaction_id']} uploaded successfully.")
+    except Exception as e:
+        logging.error(f"Error uploading transaction {transaction['transaction_id']}: {e}")
+
+def upload_transactions(transactions: list):
+    seen_ids = set()
+    for txn in transactions:
+        txn = normalize_transaction(txn)
+        if not validate_transaction(txn, seen_ids):
+            logging.warning(f"Invalid or duplicate transaction skipped: {txn}")
+            continue
+        # Proceed with uploading the valid transaction
+        upload_to_database(txn)
+
 def main(data_file="/app/settlement_transactions.json"):
     try:
         with open(data_file, 'r') as f:
@@ -32,18 +52,7 @@ def main(data_file="/app/settlement_transactions.json"):
         return
 
     logging.info("Uploading transactions...")
-    try:
-        batch = db.batch()
-        collection_ref = db.collection('settlements')
-
-        for transaction in transactions:
-            doc_ref = collection_ref.document(transaction['transaction_id'])
-            batch.set(doc_ref, transaction)
-
-        batch.commit()
-        logging.info(f"Uploaded {len(transactions)} transactions.")
-    except Exception as e:
-        logging.error(f"Error uploading settlements: {e}")
+    upload_transactions(transactions)
 
 if __name__ == "__main__":
     main()
