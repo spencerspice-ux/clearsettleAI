@@ -8,8 +8,11 @@
    ```
 
 2. **Firebase Credentials**:
-   - Place your Firebase Admin SDK JSON file in the project root.
-   - Update the `GOOGLE_APPLICATION_CREDENTIALS` environment variable in `docker-compose.yml`.
+   - For local development:
+     - Place your Firebase Admin SDK JSON file in the project root.
+     - Update the `GOOGLE_APPLICATION_CREDENTIALS` environment variable in `docker-compose.yml`.
+   - For Streamlit Cloud:
+     - Copy the contents of `.streamlit/secrets.toml` into the "Secrets" section of your Streamlit Cloud dashboard.
 
 3. **Run Pipeline**:
    ```bash

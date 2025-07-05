@@ -48,5 +48,6 @@ def run_pipeline(data_file="/app/settlement_transactions.json"):
 
     logging.info("🏁 Pipeline completed successfully.\n")
 
+# Ensure the function is accessible for import
 if __name__ == "__main__":
     run_pipeline()

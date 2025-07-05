@@ -27,6 +27,14 @@ if not firebase_admin._apps:  # Prevent reinitialization in Streamlit's reruns
 st.title("ClearSettle AI Pipeline")
 st.markdown("🚀 **Welcome to ClearSettle AI!** Use this app to process settlement transactions.")
 
+# Test secrets access
+st.subheader("Secrets Test")
+try:
+    st.write("Firebase Credentials:")
+    st.json(firebase_credentials)  # Display the loaded credentials
+except Exception as e:
+    st.error(f"❌ Failed to load secrets: {e}")
+
 # File uploader for settlement transactions
 uploaded_file = st.file_uploader("Upload Settlement Transactions JSON File", type=["json"])
 
