@@ -1,0 +1,722 @@
+2025-07-03 15:11:28,017 [INFO] Firebase initialized successfully.
+2025-07-03 15:11:28,377 [ERROR] AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0xffff4d456250>" raised exception!
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/grpc/_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 95, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 81, in _get_authorization_headers
+    self._credentials.before_request(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/service_account.py", line 448, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 299, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 270, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-07-03 15:11:28,453 [ERROR] AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0xffff4d456250>" raised exception!
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/grpc/_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 95, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 81, in _get_authorization_headers
+    self._credentials.before_request(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/service_account.py", line 448, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 299, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 270, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-07-03 15:11:28,578 [ERROR] AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0xffff4d456250>" raised exception!
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/grpc/_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 95, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 81, in _get_authorization_headers
+    self._credentials.before_request(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/service_account.py", line 448, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 299, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 270, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-07-03 15:11:28,641 [ERROR] AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0xffff4d456250>" raised exception!
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/grpc/_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 95, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 81, in _get_authorization_headers
+    self._credentials.before_request(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/service_account.py", line 448, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 299, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 270, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-07-03 15:11:28,809 [ERROR] AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0xffff4d456250>" raised exception!
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/grpc/_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 95, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 81, in _get_authorization_headers
+    self._credentials.before_request(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/service_account.py", line 448, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 299, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 270, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-07-03 15:11:29,103 [ERROR] AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0xffff4d456250>" raised exception!
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/grpc/_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 95, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 81, in _get_authorization_headers
+    self._credentials.before_request(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/service_account.py", line 448, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 299, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 270, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-07-03 15:11:29,520 [ERROR] AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0xffff4d456250>" raised exception!
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/grpc/_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 95, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 81, in _get_authorization_headers
+    self._credentials.before_request(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/service_account.py", line 448, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 299, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 270, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-07-03 15:11:29,709 [ERROR] AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0xffff4d456250>" raised exception!
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/grpc/_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 95, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 81, in _get_authorization_headers
+    self._credentials.before_request(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/service_account.py", line 448, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 299, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 270, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-07-03 15:11:29,947 [ERROR] AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0xffff4d456250>" raised exception!
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/grpc/_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 95, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 81, in _get_authorization_headers
+    self._credentials.before_request(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/service_account.py", line 448, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 299, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 270, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-07-03 15:11:30,213 [ERROR] AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0xffff4d456250>" raised exception!
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/grpc/_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 95, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 81, in _get_authorization_headers
+    self._credentials.before_request(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/service_account.py", line 448, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 299, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 270, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-07-03 15:11:30,583 [ERROR] AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0xffff4d456250>" raised exception!
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/grpc/_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 95, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 81, in _get_authorization_headers
+    self._credentials.before_request(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/service_account.py", line 448, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 299, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 270, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-07-03 15:11:30,735 [ERROR] AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0xffff4d456250>" raised exception!
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/grpc/_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 95, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 81, in _get_authorization_headers
+    self._credentials.before_request(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/service_account.py", line 448, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 299, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 270, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-07-03 15:11:30,979 [ERROR] AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0xffff4d456250>" raised exception!
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/grpc/_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 95, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 81, in _get_authorization_headers
+    self._credentials.before_request(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/service_account.py", line 448, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 299, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 270, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-07-03 15:11:31,934 [ERROR] AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0xffff4d456250>" raised exception!
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/grpc/_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 95, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 81, in _get_authorization_headers
+    self._credentials.before_request(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/service_account.py", line 448, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 299, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 270, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-07-03 15:11:34,125 [ERROR] AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0xffff4d456250>" raised exception!
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/grpc/_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 95, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 81, in _get_authorization_headers
+    self._credentials.before_request(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/service_account.py", line 448, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 299, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 270, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-07-03 15:11:34,751 [ERROR] AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0xffff4d456250>" raised exception!
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/grpc/_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 95, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 81, in _get_authorization_headers
+    self._credentials.before_request(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/service_account.py", line 448, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 299, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 270, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-07-03 15:11:35,939 [ERROR] AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0xffff4d456250>" raised exception!
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/grpc/_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 95, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 81, in _get_authorization_headers
+    self._credentials.before_request(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/service_account.py", line 448, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 299, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 270, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-07-03 15:11:37,325 [ERROR] AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0xffff4d456250>" raised exception!
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/grpc/_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 95, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 81, in _get_authorization_headers
+    self._credentials.before_request(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/service_account.py", line 448, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 299, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 270, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-07-03 15:11:40,512 [ERROR] AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0xffff4d456250>" raised exception!
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/grpc/_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 95, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 81, in _get_authorization_headers
+    self._credentials.before_request(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/service_account.py", line 448, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 299, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 270, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-07-03 15:11:48,635 [ERROR] AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0xffff4d456250>" raised exception!
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/grpc/_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 95, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 81, in _get_authorization_headers
+    self._credentials.before_request(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/service_account.py", line 448, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 299, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 270, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-07-03 15:11:53,876 [ERROR] AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0xffff4d456250>" raised exception!
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/grpc/_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 95, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 81, in _get_authorization_headers
+    self._credentials.before_request(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/service_account.py", line 448, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 299, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 270, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-07-03 15:12:10,882 [ERROR] AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0xffff4d456250>" raised exception!
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/grpc/_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 95, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 81, in _get_authorization_headers
+    self._credentials.before_request(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/service_account.py", line 448, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 299, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 270, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-07-03 15:12:16,489 [ERROR] AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0xffff4d456250>" raised exception!
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/grpc/_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 95, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 81, in _get_authorization_headers
+    self._credentials.before_request(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/service_account.py", line 448, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 299, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 270, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-07-03 15:12:29,797 [ERROR] AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0xffff4d456250>" raised exception!
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/grpc/_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 95, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 81, in _get_authorization_headers
+    self._credentials.before_request(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/service_account.py", line 448, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 299, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 270, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-07-03 15:13:05,050 [ERROR] AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0xffff4d456250>" raised exception!
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/grpc/_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 95, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 81, in _get_authorization_headers
+    self._credentials.before_request(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/service_account.py", line 448, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 299, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 270, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-07-03 15:13:46,025 [ERROR] AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0xffff4d456250>" raised exception!
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/grpc/_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 95, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 81, in _get_authorization_headers
+    self._credentials.before_request(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/service_account.py", line 448, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 299, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 270, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-07-03 15:14:39,567 [ERROR] AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0xffff4d456250>" raised exception!
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/grpc/_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 95, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 81, in _get_authorization_headers
+    self._credentials.before_request(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/service_account.py", line 448, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 299, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 270, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-07-03 15:15:02,990 [ERROR] AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0xffff4d456250>" raised exception!
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/grpc/_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 95, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 81, in _get_authorization_headers
+    self._credentials.before_request(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/service_account.py", line 448, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 299, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 270, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-07-03 15:15:47,769 [ERROR] AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0xffff4d456250>" raised exception!
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/grpc/_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 95, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 81, in _get_authorization_headers
+    self._credentials.before_request(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/service_account.py", line 448, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 299, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 270, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-07-03 15:16:03,281 [ERROR] AuthMetadataPluginCallback "<google.auth.transport.grpc.AuthMetadataPlugin object at 0xffff4d456250>" raised exception!
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.11/site-packages/grpc/_plugin_wrapping.py", line 105, in __call__
+    self._metadata_plugin(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 95, in __call__
+    callback(self._get_authorization_headers(context), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/transport/grpc.py", line 81, in _get_authorization_headers
+    self._credentials.before_request(
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 239, in before_request
+    self._blocking_refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/auth/credentials.py", line 202, in _blocking_refresh
+    self.refresh(request)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/service_account.py", line 448, in refresh
+    access_token, expiry, _ = _client.jwt_grant(
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 299, in jwt_grant
+    response_data = _token_endpoint_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 270, in _token_endpoint_request
+    _handle_error_response(response_data, retryable_error)
+  File "/home/vscode/.local/lib/python3.11/site-packages/google/oauth2/_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})
+2025-07-03 15:16:03,286 [ERROR] Error in main: Timeout of 300.0s exceeded, last exception: 503 Getting metadata from plugin failed with error: ('invalid_grant: Invalid JWT Signature.', {'error': 'invalid_grant', 'error_description': 'Invalid JWT Signature.'})

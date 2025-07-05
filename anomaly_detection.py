@@ -26,12 +26,15 @@ logging.basicConfig(
     ]
 )
 
+# Update the path to the correct location
+cred_path = "/workspaces/clearsettleAI/clearsettle-ai-firebase-adminsdk-fbsvc-844f7a5e30.json"
+
 # Firebase Init
 try:
     if os.getenv("FIRESTORE_EMULATOR_HOST"):
         os.environ["FIRESTORE_PROJECT_ID"] = "clearsettle-ai"
     if not firebase_admin._apps:  # Check if Firebase is already initialized
-        cred = credentials.Certificate("/app/clearsettle-ai-firebase-adminsdk-fbsvc-844f7a5e30.json")
+        cred = credentials.Certificate(cred_path)
         firebase_admin.initialize_app(cred)
     db = firestore.client()
     logging.info("Firebase initialized successfully.")

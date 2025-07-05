@@ -10,10 +10,18 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 # Access Firebase credentials from secrets
 firebase_credentials = st.secrets["firebase_credentials"]
 
+# Debugging Firebase credentials
+logging.info(f"Firebase credentials loaded: {firebase_credentials}")
+
 # Initialize Firebase Admin SDK
 if not firebase_admin._apps:  # Prevent reinitialization in Streamlit's reruns
-    cred = credentials.Certificate(firebase_credentials)  # Use secrets directly
-    firebase_admin.initialize_app(cred)
+    try:
+        cred = credentials.Certificate("/workspaces/clearsettleAI/clearsettle-ai-firebase-adminsdk-fbsvc-844f7a5e30.json")
+        firebase_admin.initialize_app(cred)
+        logging.info("Firebase initialized successfully.")
+    except Exception as e:
+        logging.error(f"Failed to initialize Firebase: {e}")
+        st.error(f"❌ Firebase initialization failed: {e}")
 
 # Streamlit App
 st.title("ClearSettle AI Pipeline")
