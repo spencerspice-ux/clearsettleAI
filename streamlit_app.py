@@ -16,7 +16,7 @@ logging.info(f"Firebase credentials loaded: {firebase_credentials}")
 # Initialize Firebase Admin SDK
 if not firebase_admin._apps:  # Prevent reinitialization in Streamlit's reruns
     try:
-        cred = credentials.Certificate("/workspaces/clearsettleAI/clearsettle-ai-firebase-adminsdk-fbsvc-844f7a5e30.json")
+        cred = credentials.Certificate(firebase_credentials)  # Use secrets directly
         firebase_admin.initialize_app(cred)
         logging.info("Firebase initialized successfully.")
     except Exception as e:
